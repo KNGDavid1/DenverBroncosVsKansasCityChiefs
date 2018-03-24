@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="05dp"
+    android:layout_marginLeft="05dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="05dp"
+    android:background="@drawable/glove2">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="MainActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:paddingBottom="16dp"
+                android:text="Denver Broncos"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/denver_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:paddingBottom="24dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF6D00"
+                android:onClick="addSevenForTouchdown"
+                android:paddingBottom="8dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:text=" Touchdowns"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF6D00"
+                android:onClick="addOneForFieldgoal"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text=" Field Goal"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF6D00"
+                android:onClick="addTwoFor2ptConversation"
+                android:paddingTop="8dp"
+                android:text=" 2pt Conversion"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF6D00"
+                android:onClick="addOneForSafety"
+                android:paddingTop="8dp"
+                android:text=" Safety"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/horse" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context="MainActivity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:paddingBottom="16dp"
+                android:text="Kansas City Chiefs"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/chief_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:paddingBottom="24dp"
+                android:text="0"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#D50000"
+                android:onClick="addSevenForTouchdown"
+                android:paddingBottom="8dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:text="Touchdowns"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#D50000"
+                android:onClick="addOneForFieldgoal"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Field Goal"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#D50000"
+                android:onClick="addTwoFor2ptConversion"
+                android:paddingTop="8dp"
+                android:text="2pt Conversion"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#D50000"
+                android:onClick="addOneForSafety"
+                android:paddingTop="8dp"
+                android:text="Safety"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:src="@drawable/kc3" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:background="#000000"
+        android:onClick="resetScore"
+        android:text="Reset"
+        android:textColor="#FF6D00" />
+
+
+</RelativeLayout>
+
+
+
